@@ -7,11 +7,11 @@ configuration {
 	show-icons: false;
 	hide-scrollbar: true;
 	threads: 0;
+	lines: 10;
 	
 			  /*DISABLED*/
 	
 /*	width: 50;*/
-/*	lines: 15;*/
 /*	columns: 1;*/
 /*	bw: 1;*/
 /*	location: 0;*/
