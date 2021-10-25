@@ -1,6 +1,6 @@
 # ROFI-PLUGS MENU
 
-[**Rofi**](https://github.com/DaveDavenport/rofi) is a full features **Linux textual launcher**.
+[**Rofi**](https://github.com/DaveDavenport/rofi)-Plugs Menu is my collection of some rofi plugins and some custom made/edited plugins too.
 
 ### Plug-ins Included:
 
