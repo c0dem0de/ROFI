@@ -119,6 +119,6 @@ if [ "$filecheck" = "./ROFI" ]; then
 
 else 
 	echo "**********WARNING**********"
-	echo "Make Sure the main 'ROFI' File that u get after cloning my repo is located in the 'Home' dir"
+	echo "Make Sure the main 'ROFI' Folder that u get after cloning my repo is located in the 'Home' dir"
 	echo "Stopping Install..."
 fi
