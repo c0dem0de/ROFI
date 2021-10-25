@@ -3,10 +3,10 @@
 sudo apt update && sudo apt upgrade -y
 clear
 
-echo "**********WARNING**********"
-echo "Make Sure the main 'ROFI' File that u get after cloning my repo is located in the 'Home' dir"
-read -p "(Y/n)? " ans
-if [ "$ans" = "Y" ] || [ "$ans" = "y" ]; then
+
+cd ~
+filecheck="$(find -name ROFI)"
+if [ "$filecheck" = "./ROFI" ]; then
 	#============================================================================================================================#
 	#													INSTALLATION and SETUP ROFI      										 #
 	#============================================================================================================================#
@@ -117,6 +117,8 @@ if [ "$ans" = "Y" ] || [ "$ans" = "y" ]; then
 
 
 
-elif [ "$ans" = "n" ] 
+else 
+	echo "**********WARNING**********"
+	echo "Make Sure the main 'ROFI' File that u get after cloning my repo is located in the 'Home' dir"
 	echo "Stopping Install..."
 fi
