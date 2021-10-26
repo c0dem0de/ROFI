@@ -2,7 +2,7 @@
 
 [**Rofi**](https://github.com/DaveDavenport/rofi)-Plugs Menu is my collection of some rofi plugins and some custom made/edited plugins too.
 
-<img src="/home/home/Pictures/ROfi/Rofi-Plugs Menu.png" alt="Rofi-Plugs Menu"  />
+<img src="/home/home/Documents/Work_Dir/ROFI/ScreenShots/Rofi-Plugs Menu.png" alt="Rofi-Plugs Menu"  />
 
 ### Plug-ins Included:
 
