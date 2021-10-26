@@ -38,7 +38,7 @@ then
 
 elif [ "$MENU" = "Files" ]
 then
-        sh -c 'xdg-open "$(locate home media | rofi -threads 0 -dmenu -i -p "locate:")"'
+        sh -c 'xdg-open "$(find * | rofi -threads 0 -dmenu -i -p "locate")"'
 
 elif [ "$MENU" = "Calculator" ]
 then
