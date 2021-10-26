@@ -27,8 +27,7 @@
 Distros which use **apt** manager like:
 
 1. Linux Mint
-2. Other Ubuntu Distros
-3. Debian
+2. Debian based distros like Ubuntu etc..
 
 ##### Running the script:-
 
