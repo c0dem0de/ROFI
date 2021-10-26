@@ -18,6 +18,12 @@
 
 ### Installation:
 
+#### Tested and Works for:
+
+1. **Ubuntu**: POP!OS
+
+
+
 ##### Running the script:-
 
 1. Move to your Home directory from the terminal: `cd ~`.
