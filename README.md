@@ -22,7 +22,13 @@
 
 1. **Ubuntu**: POP!OS
 
+#### Should Work on:
 
+Distros which use **apt** manager like:
+
+1. Linux Mint
+2. Other Ubuntu Distros
+3. Debian
 
 ##### Running the script:-
 
