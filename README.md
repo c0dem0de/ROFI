@@ -4,19 +4,19 @@
 
 ### Plug-ins Included:
 
-1. Applets Menu
-2. File Browser Menu
-3. Calculator
-4. Emoji Menu
-5. Web Surf Menu
-6. Git-Repo Cloner
-7. Config Files for the plug-ins Menu
+1. 💻 Applets Menu
+2. 📁 File Browser Menu
+3. 🧮 Calculator
+4. 😀 Emoji Menu
+5. 🕸️ Web Surf Menu
+6. 😸 Git-Repo Cloner
+7. 🗒️ Config Files for the plug-ins Menu
 
 
 
 ### Installation:
 
-###### Running the script:-
+##### Running the script:-
 
 1. Move to your Home directory from the terminal: `cd ~`.
 
@@ -29,7 +29,7 @@
 5. Run the file: `./INSTALL.sh`.
 6. Wait for it to install all the needed stuff.
 
-###### Setup a key binding for the *ROFI-PLUGS MENU*:-
+##### Setup a key binding for the *ROFI-PLUGS MENU*:-
 
 1. Open settings >> Keyboard >> Customize Shortcuts >> Custom Shortcuts.
 2. Click on **Add Shortcut**.
