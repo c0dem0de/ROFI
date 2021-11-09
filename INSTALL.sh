@@ -1,7 +1,7 @@
 #! /bin/bash
 
 # sudo apt update && sudo apt upgrade -y
-clear
+# clear
 
 
 cd ~
@@ -40,15 +40,15 @@ if [ "$filecheck" = "./ROFI" ]; then
 	#============================================================================================================================#
 
 	# Files Plugin
-	echo ""
-	echo "INSTALLING FILES PLUGIN"
-	sudo apt install locate mlocate -y
-	sudo updatedb
+	# echo ""
+	# echo "INSTALLING FILES PLUGIN"
+	# sudo apt install locate mlocate -y
+	# sudo updatedb
 
 	# Calculator Plugin
 	echo ""
 	echo "INSTALLING CALCUALTOR PLUGIN"
-	sudo apt install rofi-dev qalc libtool -y
+	sudo apt install rofi-dev qalc libtool libtool-bin make -y
 	mkdir ~/ROFI/MY-PLUGS/Calculator-Plugin
 	git clone https://github.com/svenstaro/rofi-calc ~/ROFI/MY-PLUGS/Calculator-Plugin
 	cd ~/ROFI/MY-PLUGS/Calculator-Plugin
@@ -73,6 +73,8 @@ if [ "$filecheck" = "./ROFI" ]; then
 	../configure
 	sudo make
 	sudo make install
+
+	libtool --finish /usr/lib/x86_64-linux-gnu/rofi//
 
 	# Git Usernames files creation
 	touch ~/ROFI/MY-PLUGS/Git-Plugin/.usrnames
