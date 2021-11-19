@@ -76,7 +76,6 @@
     selected-urgent-background:  @gruvbox-dark-red-light;
     selected-urgent-foreground:  @urgent-foreground;
 }
-/*@import "gruvbox-common.rasi"*/
 
 
 
@@ -91,6 +90,7 @@ window {
     background-color: @background;
     border:           2;
     padding:          2;
+    /*border-radius:    3px;*/
 }
 
 mainbox {
